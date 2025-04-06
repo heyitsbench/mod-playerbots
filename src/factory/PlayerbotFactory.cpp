@@ -2925,6 +2925,14 @@ void PlayerbotFactory::InitMounts()
             slow = {33660, 35020, 35022, 35018};
             fast = {35025, 35025, 35027};
             break;
+        case RACE_GOBLIN: // Copied Orc mounts for now
+            slow = { 6654, 6653, 580 };
+            fast = { 23250, 23252, 23251 };
+            break;
+        case RACE_WORGEN: // Copied Night Elf Mounts for now
+            slow = { 10789, 8394, 10793 };
+            fast = { 23219, 23220, 63637 };
+            break;
     }
 
     switch (bot->GetTeamId())
